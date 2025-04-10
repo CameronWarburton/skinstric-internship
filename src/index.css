@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -32,6 +32,12 @@ nav {
   padding-top: 10px;
 }
 
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav__title {
   font-size: 14px;
   font-weight: 600;
@@ -46,4 +52,15 @@ nav {
 
 .nav__link {
   padding-right: 15px;
+}
+
+.btn {
+  width: 92px;
+  height: 32px;
+  padding: 8px 16px;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #1A1B1C;
+  color: #FCFCFC;
 }
