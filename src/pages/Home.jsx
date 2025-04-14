@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
                     <h1 className='header__subtitle'>skincare</h1>
                 </div>
             </header>
+            <Footer />
         </div>
     </section>
   )
