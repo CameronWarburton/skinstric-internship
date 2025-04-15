@@ -74,6 +74,21 @@ nav {
   height: 75vh;
 }
 
+.header__container {
+  display: flex;
+  justify-content:space-between
+}
+
+.header__img--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
 .header__content {
   display: flex;
   flex-direction: column;
@@ -93,8 +108,9 @@ nav {
 /* Footer */
 
 .footer__container {
-  display: flex;
-  justify-content: start;
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
 }
 
 .footer__content {
