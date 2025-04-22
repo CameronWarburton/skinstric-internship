@@ -89,6 +89,18 @@ nav {
   max-height: 400px;
 }
 
+.header__btn--left {
+  height: 35px;
+  position: absolute;
+  left: 20px;
+}
+
+.header__btn--right {
+  height: 35px;
+  position:absolute;
+  right: 25px;
+}
+
 .header__content {
   display: flex;
   flex-direction: column;
